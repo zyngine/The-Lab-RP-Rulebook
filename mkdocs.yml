@@ -1,0 +1,48 @@
+site_name: The Lab RP
+site_description: City Rules & Community Guidelines
+# After your first deploy, set this to your live URL, e.g.:
+# site_url: https://YOURNAME.github.io/the-lab-rulebook/
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - scheme: slate
+      primary: cyan
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - scheme: default
+      primary: cyan
+      accent: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+nav:
+  - Welcome: index.md
+  - How We Handle Rules: how-we-handle-rules.md
+  - The Golden Rules: golden-rules.md
+  - Combat: combat.md
+  - Death & the New Life Rule: death-and-nlr.md
+  - Metagaming & Powergaming: metagaming-and-powergaming.md
+  - ERP & Content Boundaries: erp-and-content.md
+  - Zero Tolerance: zero-tolerance.md
+  - Ban Guidelines: ban-guidelines.md
+  - Reporting & Staff: reporting-and-staff.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
